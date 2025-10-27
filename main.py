@@ -31,3 +31,15 @@ def home(request: Request):
         "index.html", 
         {"request": request, "lista_alunos": alunos}
     )
+
+@app.get("/cadastro", response_class=HTMLResponse)
+def tela_cadastro(request: Request):
+    return templates.TemplateResponse(
+        "cadastro.html", 
+        {"request": request}
+    )
+
+app.post("/cadastro")
+def salvar_aluno(nome: str = Form(...), nota: float = form(...)):
+    alunos.append({"nome": nome, "nota": nota})
+    return RedirectResponse(url="/", status_code=303)
