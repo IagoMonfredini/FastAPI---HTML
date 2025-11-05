@@ -78,14 +78,5 @@ Push para o branch (git push origin minha‐feature)
 Abra um Pull Request aqui no repositório original.
 
 Licença
-Este projeto está sob a MIT ou outra licença conforme sua preferência — ajuste se necessário.
+Iago Monfredini
 
-Professora Luci: se quiser, posso gerar também um documento PDF ou versão em português mais formal para apresentação.
-
-yaml
-Copiar código
-
----
-
-Se quiser, posso formatar também com **badges** (por exemplo build, cobertura de testes), ou adicionar **screenshots** da interface. Você gostaria dessa versão ampliada?
-::contentReference[oaicite:2]{index=2}
