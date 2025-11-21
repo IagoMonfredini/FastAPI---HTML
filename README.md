@@ -31,7 +31,11 @@ Copiar código
    git clone https://github.com/IagoMonfredini/FastAPI---HTML.git
    cd FastAPI---HTML
    
-Licença
-Iago Monfredini
+### 🧾 Licença
+Este projeto é de uso livre para fins educacionais e demonstração.
+Sinta-se à vontade para modificar e aprimorar conforme suas necessidades.
+
+Iago Monfredini - Coryright
+
 
 
